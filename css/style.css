@@ -246,9 +246,15 @@ textarea {
 }
 
 /* Empieza el Header */
+body {
+  background-image: url(../img/hero@2x.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: top right -50px;
+}
 
 div.page {
-  max-width: 1400px;
+  max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -286,4 +292,100 @@ header nav ul li a {
   font-weight: 400;
   line-height: normal;
   color: #424241;
+}
+
+div.hero_content {
+  max-width: 750px;
+}
+div.hero_content h1 {
+  font-family: "Bebas Neue";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px;
+  color: #424241;
+  margin-bottom: 8px;
+}
+
+div.hero_content h1 span {
+  color: #7edad2;
+}
+
+div.hero_content p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  color: #909090;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+div.hero_content a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7edad2;
+  padding: 15px 30px;
+  color: white;
+  margin-bottom: 30px;
+  font-family: Poppins;
+}
+
+div.hero_numbers {
+  display: flex;
+
+  gap: 60px;
+}
+
+div.hero_numbers div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bebas Neue";
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #424241;
+  margin-bottom: 70px;
+}
+
+div.hero_numbers div span {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #909090;
+}
+
+section.categories {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+section.categories article {
+  padding: 20px;
+}
+
+section.categories article h3 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #424241;
+}
+
+section.categories article p {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #909090;
 }
