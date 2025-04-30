@@ -362,14 +362,15 @@ div.hero_numbers div span {
 
 section.categories {
   display: flex;
-  gap: 100px;
+  gap: 50px;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
 }
 
 section.categories article {
-  padding: 20px;
+  padding: 40px;
+  background-color: white;
 }
 
 section.categories article h3 {
